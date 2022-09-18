@@ -12,7 +12,7 @@ score <- list(win = 0,
               user_score = 0,
               bot_score = 0)
 
-# convert numeric to symbol in game
+# converting a numeric become to a symbol to show the weapon that use in each match
 convert_weapon <- function(weapon) {
   convert <- factor(weapon, 
                         levels = c(1, 2, 3), 
