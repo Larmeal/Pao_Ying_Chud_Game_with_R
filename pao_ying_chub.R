@@ -1,9 +1,9 @@
 library(glue)
 
 # [tool, win, lose] mean if you chose rock [rock, win scissors, lose paper]
-tools <- list(rock = c(1, 3, 2), # rock 
-              paper = c(2, 1, 3), # paper
-              scissors = c(3, 2, 1)) # scissors
+tools <- list(rock = c(1, 3, 2), # 1 = rock 
+              paper = c(2, 1, 3), # 2 = paper
+              scissors = c(3, 2, 1)) # 3 = scissors
 
 # keep all scores in game
 score <- list(win = 0, 
